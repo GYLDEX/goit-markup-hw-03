@@ -215,6 +215,130 @@ cursor: pointer;
     font-weight: 400;
     color: var(--paragraph-color);
 }
-.proyect-item{
+.proyects-item {
     list-style: none;
+    cursor: pointer;
+}
+
+/*Tercera tarea*/ 
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.section {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+/*Barra de bavegacion*/
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.icon {
+    padding-left: 40px;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 50px;
+}
+
+.contacts {
+    display: flex;
+    gap: 50px;
+}
+
+/*seccion principal*/
+
+.principal-section {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    margin: 0;
+}
+
+/*Seccion About us*/ 
+
+.about-us-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+}
+
+/*Seccion servicios*/ 
+
+.service-list {
+    display: flex;
+    gap: 30px;
+    padding-top: 55px;
+}
+
+/*Seccion team*/ 
+
+.team-list {
+    display: flex;
+    gap: 37px;
+    padding-top: 50px;
+}
+
+.team-item {
+    background-color: var(--white-font);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+
+/*Portfolio*/ 
+
+.navegation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.proyects-item {
+    border: 1px solid rgba(238, 238, 238, 1);
+    margin-bottom: 30px;
+    flex-basis: calc((100% - 60px)/3);
+}
+
+.proyects-item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
