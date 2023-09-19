@@ -20,6 +20,16 @@
     color: var(--principal-color);
 }
 
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
 /* WEBSTUDIO LOGO*/
 
 .icon-wb {
@@ -29,8 +39,24 @@
     font-weight: 700;
     text-decoration: none;
 }
+.icon-wb{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
 
 /* NAVEGATION BAR */
+
+.navegation-bar{
+    display: flex;
+    gap: 90px;
+}
+
+.navegation-list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
 
 .navegation-bar .navegation-link {
     color: var(--principal-color);
@@ -72,6 +98,11 @@ color: var(--blue-text);
     list-style: none;
 }
 
+.contact {
+    display: flex;
+    gap: 50px;
+}
+
 /* BANNER */
 
 .banner .main-title{
@@ -97,12 +128,26 @@ color: var(--blue-text);
     border-radius: 4px;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+}
+
 /* ABOUT US */
 
 .about-list .about-title{
   font-size: 14px;
   font-weight: 700;
-  text-transform:uppercase ;  
+  text-transform:uppercase ; 
+
+}
+.about-us-list{
+    list-style: none;
 }
 
 .about-list .about-text {
@@ -111,10 +156,15 @@ color: var(--blue-text);
     font-weight: 400;
 }
 
-.about-item{
-    list-style: none;
+.section{
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
-
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
 /* GALERY SERVICES */
 
 .our-service .service-tittle{ 
@@ -125,6 +175,12 @@ text-align: center;
 
 .service-item {
     list-style: none;
+}
+
+.galery-service {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* OUR TEAM */
@@ -150,7 +206,9 @@ text-align: center;
     list-style: none;
 }
 
+
 /* FOOTER */
+
 .footer-final{
     background-color: var(--background-banner);
 }
@@ -167,6 +225,7 @@ text-align: center;
 .footer-item{
     list-style: none;
 }
+
 
 .icon-two{
     color: var(--blue-text);
@@ -306,14 +365,15 @@ cursor: pointer;
     border-radius: 4px;
 }
 
-.page-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0;
-}
-
 
 /*Portfolio*/ 
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 186px;
+}
 
 .navegation-buttons {
     display: flex;
